@@ -1,4 +1,4 @@
-package shaart.debugging.stack;
+package shaart.debugging.rpg;
 
 import java.util.Arrays;
 import java.util.List;

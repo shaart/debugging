@@ -1,4 +1,4 @@
-package shaart.debugging.stack;
+package shaart.debugging.rpg;
 
 public class Warrior extends BaseCharacter {
 

@@ -1,4 +1,4 @@
-package shaart.debugging.stack;
+package shaart.debugging.rpg;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -50,6 +50,12 @@ public abstract class BaseCharacter {
         break;
       case 1:
         heal(ally);
+        break;
+      case 2:
+        try {
+          throw new RuntimeException("any exception");
+        } catch (Exception e) {
+        }
         break;
       default:
         actionIndex = 0;
